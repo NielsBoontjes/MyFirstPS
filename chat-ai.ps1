@@ -31,7 +31,7 @@ $antwoord = Read-Host "Wat is je favoriete YouTube Kanaal?"
 if ($antwoord -eq "De Bankzitters, ik lach altijd hard om hun video's"){
     Write-Host "De Bankzitter altijd leuk!" -ForegroundColor Green
 }
-$antwoord = Read-Host "Moet ik het YouTube kanaal van de Bankzitters openen?"
+$antwoord = Read-Host "Moet ik het YouTube video van de Bankzitters openen?"
 if ($antwoord -eq "Ja graag"){
-    Start-Process https://www.youtube.com/@Bankzitters
+    Start-Process https://www.youtube.com/watch?v=ojA46fBVNVM
 }
