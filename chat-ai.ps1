@@ -15,7 +15,7 @@ if ($antwoord -eq "Ja"){
     Write-Host "Leuk om te horen" -ForegroundColor Green
 }
 $antwoord = Read-Host "Vind je het een leuke school?"
-if ($antwoord -eq "Ja, ik heb her echt naar mijn zin"){
+if ($antwoord -eq "Ja, ik heb het echt naar mijn zin"){
     Write-Host "Ik ben blij om dat te horen" -ForegroundColor Green
 }
 $antwoord = Read-Host "Speel je spelletjes?"
